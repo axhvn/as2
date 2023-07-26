@@ -1,0 +1,16 @@
+.bg-image {
+    background-image: url("../img/xxxmin.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}   
+
+h1, .display-1, .text-secondary, .font {
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #1d3449;
+}

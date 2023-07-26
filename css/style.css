@@ -7,6 +7,27 @@
     background-attachment: fixed;
 }   
 
+.bg-image2 {
+    background-image: url("../img/sd.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}  
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.no-overlay {
+    position: relative;
+    z-index: 10000;
+}
+
 h1, .display-1, .text-secondary, .font {
     font-family: 'Quicksand', sans-serif;
 }
